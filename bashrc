@@ -9,6 +9,9 @@ alias gp='git push'
 alias gd='git diff'
 alias gb='git branch'
 
+# please sudo
+alias please='sudo $(history -p !!)'
+
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 export GREP_OPTIONS='--color=auto --exclude-dir=.svn'
